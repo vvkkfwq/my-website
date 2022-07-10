@@ -16,5 +16,7 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['vue', '@typescript-eslint', 'prettier'],
-  rules: {},
+  rules: {
+    'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
+  },
 };
