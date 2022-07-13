@@ -4,4 +4,5 @@ module.exports = {
     'stylelint-config-prettier',
     'stylelint-config-recess-order',
   ],
+  plugins: ['stylelint-order'],
 };
