@@ -18,6 +18,8 @@ module.exports = {
   },
   plugins: ['vue', '@typescript-eslint'],
   rules: {
+    // 使用airbnb规范时会提示eslint应在依赖中而不是开发依赖中，下面以禁用警告
+    'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
     // 组件命名
     'vue/multi-word-component-names': [
       'error',
