@@ -4,6 +4,7 @@ import App from './App.vue';
 import Router from './router';
 import store from './store';
 import 'tailwindcss/tailwind.css';
+import '@lottiefiles/lottie-player';
 
 const app = createApp(App);
 
