@@ -1,14 +1,16 @@
+<script setup lang="ts">
+import MessageApi from '@/components/MessageApi.vue';
+import { NMessageProvider } from 'naive-ui';
+</script>
+
 <template>
   <router-view />
+  <n-message-provider>
+    <MessageApi />
+  </n-message-provider>
 </template>
-
 <style>
 #app {
-  margin-top: 60px;
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  color: #2c3e50;
-  text-align: center;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Helvetica, Arial, sans-serif;
 }
 </style>
