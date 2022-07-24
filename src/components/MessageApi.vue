@@ -1,7 +1,7 @@
 <template>
   <div></div>
 </template>
-<script>
+<script lang="ts">
 import { useMessage } from 'naive-ui';
 import { defineComponent } from 'vue';
 
