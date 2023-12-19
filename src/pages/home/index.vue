@@ -125,11 +125,6 @@ const copy = async () => {
         ></lottie-player>
       </div>
     </div>
-    <div class="buttom-box w-full flex justify-center text-white">
-      <a href="https://beian.miit.gov.cn/" target="_blank"
-        >粤ICP备2022077555号-1</a
-      >
-    </div>
   </div>
 </template>
 
